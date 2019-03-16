@@ -3,6 +3,6 @@
 Here are some icons I created in line with the MDI style.
 
 
-|Type| | | |
+|Type|Normal|Boxed|Outlined|
 |-|-|-|-|
 |Advertisement|![normal](./renders/ad.png)|![box](./renders/ad-box.png)|![outline](./renders/ad-outline.png)|
