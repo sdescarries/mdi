@@ -14,21 +14,24 @@
       M 20,16
       L 20,16
       C 21,8.55
-        24.25,4
+        25.25,4
         30,5
       L 158,32
       L 162,32
-      L 290,4
-      C 295,8
-        295,12
+      L 290,5
+      C 294.75,4
+        299,8.55
         300,16
-      L 300,16
       L 318,150
-      L 313,166
+      C 319,157.44
+        314,162.8
+        313,166
       L 218,310
       H 102
       L 5,166
-      L 2,150
+      C 4,162.8
+        1,157.44
+        2,150
       Z
       "
     />
@@ -42,22 +45,22 @@
   <use
     xlink:href="#plate"
     fill="#EEE"
-    x=18
-    y=18
-    transform="scale(0.90)"
+    x=28
+    y=28
+    transform="scale(0.85)"
   />
 
   <text
     font-style=italic
-    font-weight=700
-    font-size=140
+    font-weight=1000
+    font-size=120
     x=153
     y=150
     text-anchor="middle"
     dominant-baseline="middle"
     fill="black"
     stroke="gray"
-    stroke-width=3
+    stroke-width=5
   >
     975
   </text>
