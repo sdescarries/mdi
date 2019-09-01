@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<svg
+  version="1.1"
+  baseProfile="full"
+  viewBox="0 0 320 320"
+  width="320px"
+  height="320px"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <path
+      id="plate"
+      d="
+      M 20,16
+      L 20,16
+      C 21,8.55
+        25.25,4
+        30,5
+      L 158,32
+      L 162,32
+      L 290,5
+      C 294.75,4
+        299,8.55
+        300,16
+      L 318,150
+      C 319,157.44
+        314,162.8
+        313,166
+      L 218,310
+      H 102
+      L 5,166
+      C 4,162.8
+        1,157.44
+        2,150
+      Z
+      "
+    />
+
+    <path
+      id="bluetop"
+      d="
+      M 20,16
+      C 21,8.55
+        25.25,4
+        30,5
+      L 158,32
+      L 162,32
+      L 13.647,63.293
+      Z
+      "
+    />
+
+    <path
+      id="bluebot"
+      d="
+      M 267.407,235.110
+      L 218,310
+      H 102
+      L 78.408,274.98
+      Z
+      "
+    />
+
+    <path
+      id="highlight"
+      d="
+      M 200,23.984
+      L 290,5
+      C 294.75,4
+        299,8.55
+        300,16
+      L 318,150
+      C 319,157.44
+        314,162.8
+        313,166
+      L 218,310
+      H 120
+      C 180,214
+        200,96
+        200,23.984
+      Z
+      "
+    />
+
+  </defs>
+
+  <use
+    xlink:href="#plate"
+    fill="#FF6600"
+  />
+
+  <use
+    xlink:href="#plate"
+    fill="#FFF"
+    x="28"
+    y="28"
+    transform="scale(0.85)"
+  />
+
+  <use
+    xlink:href="#bluetop"
+    fill="#11A"
+    x="28"
+    y="28"
+    transform="scale(0.85)"
+  />
+
+  <use
+    xlink:href="#bluebot"
+    fill="#11A"
+    x="28"
+    y="28"
+    transform="scale(0.85)"
+  />
+
+  <style>
+    .number { font: bold italic 100pt "Droid Sans"; }
+  </style>
+
+  <text
+    class="number"
+    x="153"
+    y="150"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="black"
+    stroke="gray"
+    stroke-width="5"
+  >
+    975
+  </text>
+
+  <use
+    xlink:href="#highlight"
+    fill="#000"
+    opacity="0.2"
+  />
+
+</svg>
